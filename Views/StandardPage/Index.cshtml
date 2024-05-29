@@ -1,0 +1,10 @@
+@using EPiServer.Web.Mvc.Html
+@model EPiServer.Reference.Commerce.Site.Features.Shared.Pages.StandardPage
+<div class="container-fluid">
+    <div class="row myPage">
+        <div class="col-xs-12 col-md-9">
+            <h2>@Html.PropertyFor(x => x.Title)</h2>
+            @Html.PropertyFor(x => x.MainBody)
+        </div>
+    </div>
+</div>
